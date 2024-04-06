@@ -6,15 +6,23 @@ export default function Navbar() {
       <div className="mx-auto px-2 xl:px-0 flex items-center justify-between max-w-[1280px] 2xl:max-w-[1520px] w-full py-1">
         <div className="flex-1">
           <div className="flex gap-2 items-center">
-            <h2 className="text-xl font-bold">MP</h2>
+            <h2 className="text-xl font-bold btn btn-ghost xl:hover:bg-accent">
+              MP
+            </h2>
           </div>
         </div>
 
         <div className="flex flex-col items-end">
           <div className="flex items-center xl:gap-1">
-            <button className="btn btn-ghost btn-sm">Sobre mi</button>
-            <button className="btn btn-ghost btn-sm">Trabajos</button>
-            <button className="btn btn-ghost btn-sm">Contacto</button>
+            <button className="btn btn-ghost btn-sm xl:hover:bg-accent">
+              Sobre mi
+            </button>
+            <button className="btn btn-ghost btn-sm xl:hover:bg-accent">
+              Trabajos
+            </button>
+            <button className="btn btn-ghost btn-sm xl:hover:bg-accent">
+              Contacto
+            </button>
           </div>
         </div>
 
