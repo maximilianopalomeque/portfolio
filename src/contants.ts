@@ -12,6 +12,13 @@ import bolderDashboardDesktop4 from "../public/img/bolder-dashboard/desktop-4.pn
 import bolderDashboardDesktop5 from "../public/img/bolder-dashboard/desktop-5.png";
 import bolderDashboardDesktop6 from "../public/img/bolder-dashboard/desktop-6.png";
 
+import physiocareLandingDesktop1 from "../public/img/physiocare/desktop-1.png";
+import physiocareLandingDesktop2 from "../public/img/physiocare/desktop-2.png";
+import physiocareLandingDesktop3 from "../public/img/physiocare/desktop-3.png";
+import physiocareLandingDesktop4 from "../public/img/physiocare/desktop-4.png";
+import physiocareLandingDesktop5 from "../public/img/physiocare/desktop-5.png";
+import physiocareLandingDesktop6 from "../public/img/physiocare/desktop-6.png";
+
 const BOLDER_IMAGES = [
   bolderDesktop1,
   bolderDesktop2,
@@ -30,6 +37,15 @@ const BOLDER_DASHBOARD_IMAGES = [
   bolderDashboardDesktop6,
 ];
 
+const PHYSIOCARE_LANDING_IMAGES = [
+  physiocareLandingDesktop1,
+  physiocareLandingDesktop2,
+  physiocareLandingDesktop3,
+  physiocareLandingDesktop4,
+  physiocareLandingDesktop5,
+  physiocareLandingDesktop6,
+];
+
 export const PROJECTS = [
   {
     id: 1,
@@ -44,5 +60,12 @@ export const PROJECTS = [
     description:
       "Dashboard that allow users to upload videos and display it in their sites.",
     images: BOLDER_DASHBOARD_IMAGES,
+  },
+  {
+    id: 3,
+    title: "Physiocare Landing Page",
+    description:
+      "Landing pages dynamically generated with physiotherapy content managed through the Physiocare Admin interface, ensuring up-to-date and user-friendly experiences.",
+    images: PHYSIOCARE_LANDING_IMAGES,
   },
 ];
