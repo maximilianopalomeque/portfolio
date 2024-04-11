@@ -19,6 +19,43 @@ import physiocareLandingDesktop4 from "../public/img/physiocare/desktop-4.png";
 import physiocareLandingDesktop5 from "../public/img/physiocare/desktop-5.png";
 import physiocareLandingDesktop6 from "../public/img/physiocare/desktop-6.png";
 
+import { TbBrandNextjs } from "react-icons/tb";
+import { FaReact, FaBootstrap } from "react-icons/fa";
+import { SiTailwindcss, SiDaisyui } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
+import { DiNodejs } from "react-icons/di";
+
+// icons and tooltip
+const nextjs = {
+  text: "NextJs",
+  icon: TbBrandNextjs,
+};
+const react = {
+  text: "React",
+  icon: FaReact,
+};
+const bootstrap = {
+  text: "Bootstrap",
+  icon: FaBootstrap,
+};
+const tailwind = {
+  text: "TailwindCSS",
+  icon: SiTailwindcss,
+};
+const daisyui = {
+  text: "DaisyUI",
+  icon: SiDaisyui,
+};
+const nodejs = {
+  text: "NodeJs",
+  icon: DiNodejs,
+};
+const mongodb = {
+  text: "MongoDB",
+  icon: DiMongodb,
+};
+//--------
+
 const BOLDER_IMAGES = [
   bolderDesktop1,
   bolderDesktop2,
@@ -27,6 +64,7 @@ const BOLDER_IMAGES = [
   bolderMobile1,
   bolderMobile2,
 ];
+const BOLDER_ICONS = [nextjs, bootstrap, nodejs, mongodb];
 
 const BOLDER_DASHBOARD_IMAGES = [
   bolderDashboardDesktop1,
@@ -36,6 +74,7 @@ const BOLDER_DASHBOARD_IMAGES = [
   bolderDashboardDesktop5,
   bolderDashboardDesktop6,
 ];
+const BOLDER_DASHBOARD_ICONS = [nextjs, tailwind, daisyui, nodejs, mongodb];
 
 const PHYSIOCARE_LANDING_IMAGES = [
   physiocareLandingDesktop1,
@@ -45,6 +84,7 @@ const PHYSIOCARE_LANDING_IMAGES = [
   physiocareLandingDesktop5,
   physiocareLandingDesktop6,
 ];
+const PHYSIOCARE_LANDING_ICONS = [nextjs, tailwind, nodejs, mongodb];
 
 export const PROJECTS = [
   {
@@ -53,6 +93,7 @@ export const PROJECTS = [
     description:
       "A brand-influencer matching app. This solution includes a user-friendly landing page, login functionality, and a seamless registration process.",
     images: BOLDER_IMAGES,
+    iconsData: BOLDER_ICONS,
   },
   {
     id: 2,
@@ -60,6 +101,7 @@ export const PROJECTS = [
     description:
       "Dashboard that allow users to upload videos and display it in their sites.",
     images: BOLDER_DASHBOARD_IMAGES,
+    iconsData: BOLDER_DASHBOARD_ICONS,
   },
   {
     id: 3,
@@ -67,5 +109,6 @@ export const PROJECTS = [
     description:
       "Landing pages dynamically generated with physiotherapy content managed through the Physiocare Admin interface, ensuring up-to-date and user-friendly experiences.",
     images: PHYSIOCARE_LANDING_IMAGES,
+    iconsData: PHYSIOCARE_LANDING_ICONS,
   },
 ];
