@@ -13,8 +13,8 @@ export default function Header() {
         </h2>
         <div className="mt-8">
           <div className="flex gap-3 justify-center xl:justify-start">
-            <button className="btn btn-primary">Trabajos</button>
-            <button className="btn btn-outline">Contacto</button>
+            <button className="btn btn-secondary">Trabajos</button>
+            <button className="btn btn-accent">Contacto</button>
           </div>
         </div>
       </div>
