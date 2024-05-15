@@ -3,8 +3,6 @@ import ProjectGallery from "../ProjectGallery";
 
 import { PROJECTS } from "@/contants";
 
-console.log("project: ", PROJECTS[0].iconsData);
-
 const showProjects = PROJECTS.map((project: any) => {
   return (
     <div key={project.id} className="grid grid-cols-1 xl:grid-cols-8 py-4">

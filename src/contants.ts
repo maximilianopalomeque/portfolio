@@ -112,3 +112,5 @@ export const PROJECTS = [
     iconsData: PHYSIOCARE_LANDING_ICONS,
   },
 ];
+
+export const LINKEDIN_URL = "https://www.linkedin.com/in/maximilianopalomeque";
