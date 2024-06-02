@@ -33,7 +33,7 @@ const showProjects = PROJECTS.map((project: any) => {
 
 export default function Projects() {
   return (
-    <div className="pt-20">
+    <div className="pt-20" id="projects">
       <LayoutContainer>
         <h2 className="text-center xl:text-left text-3xl">Trabajos</h2>
 
