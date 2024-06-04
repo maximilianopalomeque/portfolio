@@ -3,7 +3,7 @@
 import LayoutContainer from "../LayoutContainer";
 import toast from "react-hot-toast";
 
-import { LINKEDIN_URL } from "@/contants";
+import { LINKEDIN_URL } from "@/constants";
 
 export default function Footer() {
   function copyToClipboard(text: string, type: string) {
