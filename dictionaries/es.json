@@ -1,0 +1,60 @@
+{
+  "landing": {
+    "navbar": {
+      "navigation": {
+        "services": "Servicios",
+        "jobs": "Trabajos",
+        "contact": "Contacto"
+      }
+    },
+    "header": {
+      "title-dev": "DESARROLLADOR WEB FULL STACK",
+      "title-1": "Transformando",
+      "title-2": "tu visión",
+      "title-3": "en",
+      "title-4": "experiencias web"
+    },
+    "services": {
+      "frontend": {
+        "title": "Frontend",
+        "text": "Desarrollo de interfaces de usuario interactivas y atractivas con HTML, CSS y JavaScript."
+      },
+      "backend": {
+        "title": "Backend",
+        "text": "Construcción de arquitecturas de servidor sólidas y bases de datos con Node.js y Express."
+      },
+      "webapp": {
+        "title": "Aplicaciones Web",
+        "text": "Creación de aplicaciones web personalizadas y dinámicas con las tecnologías más recientes."
+      },
+      "maintenance": {
+        "title": "Mantenimiento y Optimización",
+        "text": "Servicios continuos de mantenimiento y optimización para sitios web eficientes y seguros."
+      }
+    },
+    "projects": {
+      "section-title": "Trabajos",
+      "project-list": {
+        "the-bolder": {
+          "title": "The Bolder",
+          "text": "Una app que conecta marcas con influencers. Esta solución incluye una página de inicio fácil de usar, funcionalidad de inicio de sesión y un proceso de registro sin problemas."
+        },
+        "the-bolder-dashboard": {
+          "title": "The Bolder Dashboard",
+          "text": "Panel de control que permite a los usuarios subir videos y mostrarlos en sus sitios."
+        },
+        "physiocare-landing": {
+          "title": "Physiocare Landing Page",
+          "text": "Páginas de inicio generadas dinámicamente con contenido de fisioterapia gestionado a través de la interfaz de administración de Physiocare, asegurando experiencias actualizadas y fáciles de usar."
+        }
+      }
+    },
+    "contact-text": "¡Contame sobre tu próximo proyecto!",
+    "footer": {
+      "copy": "Copiar",
+      "visit": "Visitar",
+      "copied-clipboard": "copiado!",
+      "phone-number": "Número de teléfono"
+    }
+  }
+}

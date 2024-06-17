@@ -1,0 +1,61 @@
+{
+  "landing": {
+    "navbar": {
+      "navigation": {
+        "services": "Services",
+        "jobs": "Work",
+        "contact": "Contact"
+      }
+    },
+    "header": {
+      "title-dev": "FULL STACK WEB DEVELOPER",
+      "title-1": "Transforming",
+      "title-2": "your vision",
+      "title-3": "into",
+      "title-4": "web experiences"
+    },
+    "services": {
+      "frontend": {
+        "title": "Frontend",
+        "text": "Developing interactive and appealing user interfaces with HTML, CSS, and JavaScript."
+      },
+
+      "backend": {
+        "title": "Backend",
+        "text": "Building robust server architectures and databases using Node.js and Express."
+      },
+      "webapp": {
+        "title": "Web Applications",
+        "text": "Creating custom and dynamic web applications with the latest technologies."
+      },
+      "maintenance": {
+        "title": "Mantenimiento y Optimización",
+        "text": "Providing continuous maintenance and optimization services for efficient and secure websites."
+      }
+    },
+    "projects": {
+      "section-title": "Works",
+      "project-list": {
+        "the-bolder": {
+          "title": "The Bolder",
+          "text": "A brand-influencer matching app. This solution includes a user-friendly landing page, login functionality, and a seamless registration process."
+        },
+        "the-bolder-dashboard": {
+          "title": "The Bolder Dashboard",
+          "text": "Dashboard that allows users to upload videos and display them on their sites."
+        },
+        "physiocare-landing": {
+          "title": "Physiocare Landing Page",
+          "text": "Landing pages dynamically generated with physiotherapy content managed through the Physiocare Admin interface, ensuring up-to-date and user-friendly experiences."
+        }
+      }
+    },
+    "contact-text": "Tell me about your next project!",
+    "footer": {
+      "copy": "Copy",
+      "visit": "Visit",
+      "copied-clipboard": "copied to clipboard!",
+      "phone-number": "Phone number"
+    }
+  }
+}

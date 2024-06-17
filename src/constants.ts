@@ -56,7 +56,7 @@ const mongodb = {
 };
 //--------
 
-const BOLDER_IMAGES = [
+export const BOLDER_IMAGES = [
   bolderDesktop1,
   bolderDesktop2,
   bolderDesktop3,
@@ -64,9 +64,9 @@ const BOLDER_IMAGES = [
   bolderMobile1,
   bolderMobile2,
 ];
-const BOLDER_ICONS = [nextjs, bootstrap, nodejs, mongodb];
+export const BOLDER_ICONS = [nextjs, bootstrap, nodejs, mongodb];
 
-const BOLDER_DASHBOARD_IMAGES = [
+export const BOLDER_DASHBOARD_IMAGES = [
   bolderDashboardDesktop1,
   bolderDashboardDesktop2,
   bolderDashboardDesktop3,
@@ -74,9 +74,15 @@ const BOLDER_DASHBOARD_IMAGES = [
   bolderDashboardDesktop5,
   bolderDashboardDesktop6,
 ];
-const BOLDER_DASHBOARD_ICONS = [nextjs, tailwind, daisyui, nodejs, mongodb];
+export const BOLDER_DASHBOARD_ICONS = [
+  nextjs,
+  tailwind,
+  daisyui,
+  nodejs,
+  mongodb,
+];
 
-const PHYSIOCARE_LANDING_IMAGES = [
+export const PHYSIOCARE_LANDING_IMAGES = [
   physiocareLandingDesktop1,
   physiocareLandingDesktop2,
   physiocareLandingDesktop3,
@@ -84,33 +90,6 @@ const PHYSIOCARE_LANDING_IMAGES = [
   physiocareLandingDesktop5,
   physiocareLandingDesktop6,
 ];
-const PHYSIOCARE_LANDING_ICONS = [nextjs, tailwind, nodejs, mongodb];
-
-export const PROJECTS = [
-  {
-    id: 1,
-    title: "The Bolder",
-    description:
-      "A brand-influencer matching app. This solution includes a user-friendly landing page, login functionality, and a seamless registration process.",
-    images: BOLDER_IMAGES,
-    iconsData: BOLDER_ICONS,
-  },
-  {
-    id: 2,
-    title: "The Bolder Dashboard",
-    description:
-      "Dashboard that allow users to upload videos and display it in their sites.",
-    images: BOLDER_DASHBOARD_IMAGES,
-    iconsData: BOLDER_DASHBOARD_ICONS,
-  },
-  {
-    id: 3,
-    title: "Physiocare Landing Page",
-    description:
-      "Landing pages dynamically generated with physiotherapy content managed through the Physiocare Admin interface, ensuring up-to-date and user-friendly experiences.",
-    images: PHYSIOCARE_LANDING_IMAGES,
-    iconsData: PHYSIOCARE_LANDING_ICONS,
-  },
-];
+export const PHYSIOCARE_LANDING_ICONS = [nextjs, tailwind, nodejs, mongodb];
 
 export const LINKEDIN_URL = "https://www.linkedin.com/in/maximilianopalomeque";

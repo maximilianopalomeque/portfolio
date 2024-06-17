@@ -8,36 +8,44 @@ import {
   FaTools,
 } from "react-icons/fa";
 import ServiceCard from "./ServiceCard";
+import { useTranslations } from "next-intl";
 
 export default function ServicesMapper() {
+  const translation = useTranslations("landing");
+
+  const frontTitle = translation("services.frontend.title");
+  const frontDescription = translation("services.frontend.text");
+  const backTitle = translation("services.backend.title");
+  const backDescription = translation("services.backend.text");
+  const webTitle = translation("services.webapp.title");
+  const webDescription = translation("services.webapp.text");
+  const maintenanceTitle = translation("services.maintenance.title");
+  const maintenanceDescription = translation("services.maintenance.text");
+
   const services = [
     {
       key: 1,
       icon: <FaLaptopCode />,
-      title: "Frontend",
-      description:
-        "Creación de interfaces de usuario interactivas y atractivas con HTML, CSS y JavaScript.",
+      title: frontTitle,
+      description: frontDescription,
     },
     {
       key: 2,
       icon: <FaServer />,
-      title: "Backend",
-      description:
-        "Construcción de sólidas arquitecturas de servidor y bases de datos con Node.js y Express.",
+      title: backTitle,
+      description: backDescription,
     },
     {
       key: 3,
       icon: <FaGlobeAmericas />,
-      title: "Aplicaciones Web",
-      description:
-        "Creación de aplicaciones web personalizadas y dinámicas utilizando las últimas tecnologías.",
+      title: webTitle,
+      description: webDescription,
     },
     {
       key: 4,
       icon: <FaTools />,
-      title: "Mantenimiento y Optimización",
-      description:
-        "Servicios de mantenimiento continuo y optimización para sitios web eficientes y seguros.",
+      title: maintenanceTitle,
+      description: maintenanceDescription,
     },
   ];
 

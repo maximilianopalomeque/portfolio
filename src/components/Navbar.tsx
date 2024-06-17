@@ -1,10 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const translation = useTranslations("landing");
+  const servicesText = translation("navbar.navigation.services");
+  const jobsText = translation("navbar.navigation.jobs");
+  const contactText = translation("navbar.navigation.contact");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -73,19 +77,19 @@ export default function Navbar() {
                 className="btn btn-ghost btn-sm xl:hover:bg-accent"
                 onClick={() => scrollToIdAndCenter("services")}
               >
-                Servicios
+                {servicesText}
               </button>
               <button
                 className="btn btn-ghost btn-sm xl:hover:bg-accent"
                 onClick={() => scrollToId("projects")}
               >
-                Trabajos
+                {jobsText}
               </button>
               <button
                 className="btn btn-ghost btn-sm xl:hover:bg-accent"
                 onClick={() => scrollToId("contact")}
               >
-                Contacto
+                {contactText}
               </button>
             </div>
           </div>
@@ -115,19 +119,19 @@ export default function Navbar() {
                 className="btn btn-ghost btn-sm xl:hover:bg-accent"
                 onClick={() => scrollToIdAndCenter("services")}
               >
-                Servicios
+                {servicesText}
               </button>
               <button
                 className="btn btn-ghost btn-sm xl:hover:bg-accent"
                 onClick={() => scrollToId("projects")}
               >
-                Trabajos
+                {jobsText}
               </button>
               <button
                 className="btn btn-ghost btn-sm xl:hover:bg-accent"
                 onClick={() => scrollToId("contact")}
               >
-                Contacto
+                {contactText}
               </button>
             </div>
           </div>
@@ -147,33 +151,5 @@ export default function Navbar() {
       {!isScrolled && <TransparentHeaderElements />}
       {isScrolled && <BlurredHeaderElements />}
     </header>
-  );
-
-  return (
-    <div className="navbar z-50 fixed top-0">
-      <div className="mx-auto px-2 xl:px-0 flex items-center justify-between max-w-[1280px] 2xl:max-w-[1520px] w-full py-1">
-        <div className="flex-1">
-          <div className="flex gap-2 items-center">
-            <h2 className="text-xl font-bold btn btn-ghost xl:hover:bg-accent">
-              MP
-            </h2>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-end">
-          <div className="flex items-center xl:gap-1">
-            <button className="btn btn-ghost btn-sm xl:hover:bg-accent">
-              Sobre mi
-            </button>
-            <button className="btn btn-ghost btn-sm xl:hover:bg-accent">
-              Trabajos
-            </button>
-            <button className="btn btn-ghost btn-sm xl:hover:bg-accent">
-              Contacto
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
   );
 }

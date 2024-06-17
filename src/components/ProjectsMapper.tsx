@@ -1,8 +1,61 @@
-import { PROJECTS } from "@/constants";
+import {
+  BOLDER_IMAGES,
+  BOLDER_ICONS,
+  BOLDER_DASHBOARD_IMAGES,
+  BOLDER_DASHBOARD_ICONS,
+  PHYSIOCARE_LANDING_IMAGES,
+  PHYSIOCARE_LANDING_ICONS,
+} from "@/constants";
 import ProjectGallery from "./ProjectGallery";
 import AOSComponent from "./AOS";
+import { useTranslations } from "next-intl";
 
 export default function ProjectsMapper() {
+  const translation = useTranslations("landing");
+
+  const bolderLandingTitle = translation(
+    "projects.project-list.the-bolder.title"
+  );
+  const bolderLandingDescription = translation(
+    "projects.project-list.the-bolder.text"
+  );
+  const bolderDashboardTitle = translation(
+    "projects.project-list.the-bolder-dashboard.title"
+  );
+  const bolderDashboardDescription = translation(
+    "projects.project-list.the-bolder-dashboard.text"
+  );
+  const physiocareTitle = translation(
+    "projects.project-list.physiocare-landing.title"
+  );
+  const physiocareDescription = translation(
+    "projects.project-list.physiocare-landing.text"
+  );
+
+  const PROJECTS = [
+    {
+      id: 1,
+      title: bolderLandingTitle,
+      description: bolderLandingDescription,
+      images: BOLDER_IMAGES,
+      iconsData: BOLDER_ICONS,
+    },
+    {
+      id: 2,
+      title: bolderDashboardTitle,
+      description: bolderDashboardDescription,
+      images: BOLDER_DASHBOARD_IMAGES,
+      iconsData: BOLDER_DASHBOARD_ICONS,
+    },
+    {
+      id: 3,
+      title: physiocareTitle,
+      description: physiocareDescription,
+      images: PHYSIOCARE_LANDING_IMAGES,
+      iconsData: PHYSIOCARE_LANDING_ICONS,
+    },
+  ];
+
   return PROJECTS.map((project: any, index: number) => {
     return (
       <AOSComponent key={project.key} delay={index * 100}>

@@ -4,8 +4,12 @@ import handshakeImg from "../../../public/img/handshake.png";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import AOSComponent from "../AOS";
+import { useTranslations } from "next-intl";
 
 export default function Contact() {
+  const translation = useTranslations("landing");
+  const contactTitle = translation("contact-text");
+
   return (
     <AOSComponent>
       <div className="py-20" id="contact">
@@ -14,8 +18,8 @@ export default function Contact() {
             <div className="w-16 h-16 rounded-full bg-accent flex justify-center items-center p-3">
               <img src={handshakeImg.src} alt="handshake icon" />
             </div>
-            <h2 className="text-center text-4xl font-bold max-w-md mt-4">
-              Contame sobre tu proximo proyecto!
+            <h2 className="text-center text-4xl font-bold max-w-sm mt-4">
+              {contactTitle}
             </h2>
             <div className="flex gap-2 mt-6">
               <a href="mailto:maximilianopalomeque@gmail.com">

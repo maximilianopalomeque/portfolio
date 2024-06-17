@@ -4,10 +4,17 @@ import LayoutContainer from "../LayoutContainer";
 import toast from "react-hot-toast";
 
 import { LINKEDIN_URL } from "@/constants";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const translation = useTranslations("landing");
+  const copyText = translation("footer.copy");
+  const visitText = translation("footer.visit");
+  const copiedText = translation("footer.copied-clipboard");
+  const phoneText = translation("footer.phone-number");
+
   function copyToClipboard(text: string, type: string) {
-    toast.success(`${type} copied to clipboard!`);
+    toast.success(`${type} ${copiedText}`);
     navigator.clipboard.writeText(text);
   }
 
@@ -16,7 +23,7 @@ export default function Footer() {
       <LayoutContainer>
         <div className="py-4">
           <div className="flex flex-col md:flex-row justify-center gap-3 items-center">
-            <div className="lg:tooltip lg:tooltip-primary" data-tip="Copy">
+            <div className="lg:tooltip lg:tooltip-primary" data-tip={copyText}>
               <h2
                 className="xl:hover:text-secondary xl:hover:cursor-pointer xl:ease-in-out xl:transition-all"
                 onClick={() =>
@@ -28,10 +35,10 @@ export default function Footer() {
             </div>
             <span className="hidden md:block">/</span>
 
-            <div className="lg:tooltip lg:tooltip-primary" data-tip="Copy">
+            <div className="lg:tooltip lg:tooltip-primary" data-tip={copyText}>
               <h2
                 className="xl:hover:text-secondary xl:hover:cursor-pointer xl:ease-in-out xl:transition-all"
-                onClick={() => copyToClipboard("2215739485", "Phone number")}
+                onClick={() => copyToClipboard("2215739485", phoneText)}
               >
                 221 573 9485
               </h2>
@@ -39,7 +46,7 @@ export default function Footer() {
 
             <span className="hidden md:block">/</span>
 
-            <div className="lg:tooltip lg:tooltip-primary" data-tip="Visit">
+            <div className="lg:tooltip lg:tooltip-primary" data-tip={visitText}>
               <a
                 href={LINKEDIN_URL}
                 className="xl:hover:text-secondary xl:hover:cursor-pointer xl:ease-in-out xl:transition-all"
