@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -91,6 +92,7 @@ export default function Navbar() {
               >
                 {contactText}
               </button>
+              <LanguageSwitcher />
             </div>
           </div>
         </div>
@@ -133,6 +135,7 @@ export default function Navbar() {
               >
                 {contactText}
               </button>
+              <LanguageSwitcher />
             </div>
           </div>
         </div>
