@@ -37,7 +37,7 @@
       "project-list": {
         "the-bolder": {
           "title": "The Bolder",
-          "text": "Una app que conecta marcas con influencers. Esta solución incluye una página de inicio fácil de usar, funcionalidad de inicio de sesión y un proceso de registro sin problemas."
+          "text": "Una app que conecta marcas con influencers. Esta solución incluye una landing page, funcionalidad de inicio de sesión, un proceso de registro, y un administrador de usuarios."
         },
         "the-bolder-dashboard": {
           "title": "The Bolder Dashboard",
@@ -45,7 +45,7 @@
         },
         "physiocare-landing": {
           "title": "Physiocare Landing Page",
-          "text": "Páginas de inicio generadas dinámicamente con contenido de fisioterapia gestionado a través de la interfaz de administración de Physiocare, asegurando experiencias actualizadas y fáciles de usar."
+          "text": "Landing pages generadas dinámicamente con contenido gestionado a través de Strapi, otorgando contenido personalizable que está siempre actualizado."
         }
       }
     },
