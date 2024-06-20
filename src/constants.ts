@@ -93,3 +93,4 @@ export const PHYSIOCARE_LANDING_IMAGES = [
 export const PHYSIOCARE_LANDING_ICONS = [nextjs, tailwind, nodejs, mongodb];
 
 export const LINKEDIN_URL = "https://www.linkedin.com/in/maximilianopalomeque";
+export const GITHUB_URL = "https://github.com/maximilianopalomeque";

@@ -3,7 +3,7 @@
 import LayoutContainer from "../LayoutContainer";
 import toast from "react-hot-toast";
 
-import { LINKEDIN_URL } from "@/constants";
+import { LINKEDIN_URL, GITHUB_URL } from "@/constants";
 import { useTranslations } from "next-intl";
 
 export default function Footer() {
@@ -53,6 +53,18 @@ export default function Footer() {
                 target="_blank"
               >
                 LinkedIn
+              </a>
+            </div>
+
+            <span className="hidden md:block">/</span>
+
+            <div className="lg:tooltip lg:tooltip-primary" data-tip={visitText}>
+              <a
+                href={GITHUB_URL}
+                className="xl:hover:text-secondary xl:hover:cursor-pointer xl:ease-in-out xl:transition-all"
+                target="_blank"
+              >
+                Github
               </a>
             </div>
           </div>
