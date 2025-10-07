@@ -43,7 +43,7 @@ export default function Experience() {
   };
 
   return (
-    <div className="pt-20 bg-base-100" id="experience">
+    <div className="py-12 bg-base-100" id="experience">
       <LayoutContainer>
         <AOSComponent>
           <h2 className="text-2xl font-bold text-center mb-12">

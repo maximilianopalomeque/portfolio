@@ -7,9 +7,9 @@ export default function Projects() {
   const sectionTitle = translation("projects.section-title");
 
   return (
-    <div className="pt-20" id="projects">
+    <div className="py-12" id="projects">
       <LayoutContainer>
-        <h2 className="text-center xl:text-left text-3xl">{sectionTitle}</h2>
+        <h2 className="text-2xl font-bold text-center mb-12">{sectionTitle}</h2>
         <ProjectsMapper />
       </LayoutContainer>
     </div>

@@ -15,6 +15,7 @@
       "title-4": "web experiences"
     },
     "services": {
+      "title": "Services",
       "frontend": {
         "title": "Frontend",
         "text": "Developing interactive and appealing user interfaces with HTML, CSS, and JavaScript."

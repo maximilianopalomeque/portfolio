@@ -15,6 +15,7 @@
       "title-4": "experiencias web"
     },
     "services": {
+      "title": "Servicios",
       "frontend": {
         "title": "Frontend",
         "text": "Desarrollo de interfaces de usuario interactivas y atractivas con HTML, CSS y JavaScript."

@@ -44,10 +44,10 @@ export default function TechStack() {
   };
 
   return (
-    <div className="pt-20 bg-base-100">
+    <div className="py-12 bg-base-100">
       <LayoutContainer>
         <AOSComponent>
-          <h2 className="text-2xl font-bold text-center mb-6">
+          <h2 className="text-2xl font-bold text-center mb-12">
             {translation("title")}
           </h2>
           <motion.div

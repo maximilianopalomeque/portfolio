@@ -12,7 +12,7 @@ export default function Contact() {
 
   return (
     <AOSComponent>
-      <div className="py-20" id="contact">
+      <div className="pb-12" id="contact">
         <LayoutContainer>
           <div className="flex flex-col items-center">
             <div className="w-16 h-16 rounded-full bg-accent flex justify-center items-center p-3">
