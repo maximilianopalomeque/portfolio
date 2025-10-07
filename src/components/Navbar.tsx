@@ -82,7 +82,7 @@ export default function Navbar() {
               </button>
               <button
                 className="btn btn-ghost btn-sm xl:hover:bg-accent"
-                onClick={() => scrollToId("projects")}
+                onClick={() => scrollToId("experience")}
               >
                 {jobsText}
               </button>
@@ -125,7 +125,7 @@ export default function Navbar() {
               </button>
               <button
                 className="btn btn-ghost btn-sm xl:hover:bg-accent"
-                onClick={() => scrollToId("projects")}
+                onClick={() => scrollToId("experience")}
               >
                 {jobsText}
               </button>
