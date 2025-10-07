@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <div className="py-12" id="projects">
       <LayoutContainer>
-        <h2 className="text-2xl font-bold text-center mb-12">{sectionTitle}</h2>
+        <h2 className="text-2xl font-bold text-center mb-8">{sectionTitle}</h2>
         <ProjectsMapper />
       </LayoutContainer>
     </div>

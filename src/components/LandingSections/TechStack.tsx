@@ -47,7 +47,7 @@ export default function TechStack() {
     <div className="py-12 bg-base-100">
       <LayoutContainer>
         <AOSComponent>
-          <h2 className="text-2xl font-bold text-center mb-12">
+          <h2 className="text-2xl font-bold text-center mb-8">
             {translation("title")}
           </h2>
           <motion.div

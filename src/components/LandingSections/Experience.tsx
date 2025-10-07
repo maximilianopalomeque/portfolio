@@ -46,7 +46,7 @@ export default function Experience() {
     <div className="py-12 bg-base-100" id="experience">
       <LayoutContainer>
         <AOSComponent>
-          <h2 className="text-2xl font-bold text-center mb-12">
+          <h2 className="text-2xl font-bold text-center mb-8">
             {translation("title")}
           </h2>
           <motion.ul

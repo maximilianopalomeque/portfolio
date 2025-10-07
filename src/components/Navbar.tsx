@@ -51,7 +51,11 @@ export default function Navbar() {
   function scrollToId(id: string) {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({
+      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+      const offsetPosition = elementPosition - 80; // 80px offset for navbar
+
+      window.scrollTo({
+        top: offsetPosition,
         behavior: "smooth",
       });
     }
