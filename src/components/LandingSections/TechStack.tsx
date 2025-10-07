@@ -61,9 +61,8 @@ export default function TechStack() {
               <motion.div
                 key={index}
                 variants={item}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                className="badge badge-md gap-2 p-4 bg-accent text-accent-content border-none cursor-pointer"
+                whileHover={{ scale: 1.05 }}
+                className="badge badge-md gap-2 p-4 bg-accent text-accent-content border-none"
               >
                 <tech.icon className="text-base" />
                 {tech.name}
