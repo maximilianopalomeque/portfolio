@@ -21,7 +21,7 @@
       },
       "backend": {
         "title": "Backend",
-        "text": "Construcción de arquitecturas de servidor sólidas y bases de datos con Node.js y Express."
+        "text": "Desarrollo de APIs backend y bases de datos con Node.js, Express, MongoDB y PostgreSQL."
       },
       "webapp": {
         "title": "Aplicaciones Web",

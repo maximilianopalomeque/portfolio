@@ -22,14 +22,14 @@
 
       "backend": {
         "title": "Backend",
-        "text": "Building robust server architectures and databases using Node.js and Express."
+        "text": "Developing backend APIs and databases with Node.js, Express, MongoDB, and PostgreSQL."
       },
       "webapp": {
         "title": "Web Applications",
         "text": "Creating custom and dynamic web applications with the latest technologies."
       },
       "maintenance": {
-        "title": "Mantenimiento y Optimización",
+        "title": "Maintenance and Optimization",
         "text": "Providing continuous maintenance and optimization services for websites."
       }
     },
