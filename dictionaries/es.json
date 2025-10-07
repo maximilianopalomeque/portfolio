@@ -35,6 +35,24 @@
     "tech": {
       "title": "Tecnologías que manejo"
     },
+    "experience": {
+      "title": "Experiencia Laboral",
+      "present": "Actualidad",
+      "jobs": {
+        "silencio": {
+          "title": "Javascript Developer",
+          "company": "Silencio",
+          "period": "Ago 2024 - Actualidad",
+          "description": "Enfocado en desarrollo backend con Express y Sails.js, bases de datos PostgreSQL, y desarrollo frontend con React."
+        },
+        "beyond": {
+          "title": "Javascript FullStack Developer",
+          "company": "Beyond Humans",
+          "period": "Ago 2022 - Ago 2024",
+          "description": "Desarrollo full-stack construyendo frontend con React y Next.js, APIs backend con Express y bases de datos MongoDB."
+        }
+      }
+    },
     "projects": {
       "section-title": "Trabajos",
       "project-list": {
