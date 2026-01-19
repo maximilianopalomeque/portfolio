@@ -2,7 +2,6 @@ import LayoutContainer from "../LayoutContainer";
 import handshakeImg from "../../../public/img/handshake.png";
 
 import { MdOutlineEmail } from "react-icons/md";
-import { FaWhatsapp } from "react-icons/fa";
 import AOSComponent from "../AOS";
 import { useTranslations } from "next-intl";
 
@@ -23,14 +22,8 @@ export default function Contact() {
             </h2>
             <div className="flex gap-2 mt-6">
               <a href="mailto:maximilianopalomeque@gmail.com">
-                <button className="btn btn-outline">
-                  <MdOutlineEmail /> Email
-                </button>
-              </a>
-              <a href="https://wa.me/542215739485" target="_blank">
                 <button className="btn btn-accent">
-                  <FaWhatsapp />
-                  WhatsApp
+                  <MdOutlineEmail /> Email
                 </button>
               </a>
             </div>

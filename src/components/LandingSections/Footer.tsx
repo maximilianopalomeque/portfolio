@@ -11,7 +11,6 @@ export default function Footer() {
   const copyText = translation("footer.copy");
   const visitText = translation("footer.visit");
   const copiedText = translation("footer.copied-clipboard");
-  const phoneText = translation("footer.phone-number");
 
   function copyToClipboard(text: string, type: string) {
     toast.success(`${type} ${copiedText}`);
@@ -33,17 +32,6 @@ export default function Footer() {
                 maximilianopalomeque@gmail.com
               </h2>
             </div>
-            <span className="hidden md:block">/</span>
-
-            <div className="lg:tooltip lg:tooltip-primary" data-tip={copyText}>
-              <h2
-                className="xl:hover:text-secondary xl:hover:cursor-pointer xl:ease-in-out xl:transition-all"
-                onClick={() => copyToClipboard("2215739485", phoneText)}
-              >
-                221 573 9485
-              </h2>
-            </div>
-
             <span className="hidden md:block">/</span>
 
             <div className="lg:tooltip lg:tooltip-primary" data-tip={visitText}>
